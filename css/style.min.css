@@ -1,0 +1,163 @@
+*{font-family:Roboto,sans-serif}
+nav{height:50px;background-color:#212121}
+.hamburger{display:none}
+.menu{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:13px 70px;list-style-type:none;margin:0}
+.menu_link{color:#fff;font-size:15px;font-weight:300}
+.menu_link:hover{color:#1ca8c3;text-decoration:none}
+.menu_item{border-right:2px dotted #000;padding-right:28px}
+.menu_item:last-child{border-right:none}
+.nav-bar{position:relative}
+.subheader{position:absolute;width:100%;height:84px;background-color:rgba(0,0,0,.6);padding-top:16px;z-index:1}
+.subheader_official{opacity:.5;color:#fff;font-size:13px;font-weight:400;margin-top:6px}
+.subheader_logo{max-width:100%}
+.subheader_call{color:#fff;font-size:12px;font-weight:300}
+.subheader_phone{color:#fff;font-size:20px;font-weight:400;text-transform:none;line-height:30px}
+.subheader_phone:hover{color:#1ca8c3;text-decoration:none}
+.subheader_btn{width:172px;height:46px;-webkit-box-shadow:inset 0 -1px 0 rgba(0,0,0,.12);box-shadow:inset 0 -1px 0 rgba(0,0,0,.12);border:none;border-radius:4px;background-image:-webkit-gradient(linear,left bottom,left top,from(#1eacc7),to(#4ce2ff));background-image:linear-gradient(to top,#1eacc7 0,#4ce2ff 100%);text-shadow:1px 1px 0 rgba(0,0,0,.21);color:#fff;font-size:14px;font-weight:400;text-transform:uppercase}
+.subheader_btn:hover{background-image:none;background-color:#1ca8c3}
+.promo{min-height:800px;background:url(../images/main-bg.png) center center/cover no-repeat;padding:150px 0 135px 0}
+.promo-header{margin:0;color:#fff;font-size:60px;font-weight:700;text-transform:uppercase;line-height:60px;text-align:center}
+.promo-subheader{margin:0;margin-top:23px;color:#fff;font-size:36px;font-weight:400;line-height:36px;text-align:center}
+.promo-descr{padding-top:23px;color:#fff;font-size:18px;font-weight:400;line-height:24px;text-align:center}
+.promo-btn{display:block;margin:118px auto 0 auto;width:259px;height:63px;-webkit-box-shadow:inset 0 -4px 0 rgba(0,0,0,.12);box-shadow:inset 0 -4px 0 rgba(0,0,0,.12);border:none;border-radius:4px;background-image:-webkit-gradient(linear,left bottom,left top,from(#1eacc7),to(#4ce2ff));background-image:linear-gradient(to top,#1eacc7 0,#4ce2ff 100%);text-align:center;text-shadow:1px 1px 0 rgba(0,0,0,.21);color:#fff;font-size:18px;font-weight:400;line-height:28px;text-transform:uppercase}
+.promo-btn:hover{background-image:none;background-color:#1ca8c3}
+.advant{position:relative;height:1000px;text-align:center}
+.label{width:112px;height:24px;background-color:#000;color:#fff;font-size:11px;font-weight:400;text-transform:uppercase;margin-top:71px}
+.title{color:#222;font-size:38px;font-weight:700;text-transform:uppercase;margin-top:28px}
+.advant-items{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-top:20px}
+.advant-subheader{margin-top:10px;width:342px;color:#1eacc7;font-size:17px;font-weight:400;text-align:justify}
+.advant-descr{color:#202020;font-size:15px;font-weight:300;line-height:21px}
+.advant-logo{margin-top:15px;margin-left:27px}
+.subtitle{margin-top:19px;color:#222;font-size:17px;font-weight:400}
+.mobile{min-width:864px;text-align:center;padding-bottom:79px;background:url(../images/mobile-main-img.png) center center/cover no-repeat}
+.mobile .row{margin-top:32px}
+.mobile-item{position:relative;text-align:center;width:320px;height:280px;margin:0 auto;margin-bottom:19px;padding-top:91px}
+.mobile-item_1{background:url(../images/mobile_screens/mobile-screen1.png) center center/cover no-repeat}
+.mobile-item_2{background:url(../images/mobile_screens/mobile-screen2.png) center center/cover no-repeat}
+.mobile-item_3{background:url(../images/mobile_screens/mobile-screen3.png) center center/cover no-repeat}
+.mobile-item_4{background:url(../images/mobile_screens/mobile-screen4.png) center center/cover no-repeat}
+.mobile-item_5{background:url(../images/mobile_screens/mobile-screen5.png) center center/cover no-repeat}
+.mobile-item_6{background:url(../images/mobile_screens/mobile-screen6.png) center center/cover no-repeat}
+.mobile-item_subtitle{color:#fff;font-size:24px;font-weight:400;line-height:31px;text-transform:uppercase}
+.mobile-item_plus{position:absolute;bottom:35px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);cursor:pointer}
+.mobile-item_icon:hover{border:solid 1px #ff5656;border-radius:100%;-webkit-transition:.3s;transition:.3s}
+.car{height:896px;position:relative}
+.car-header{height:500px;background-color:#070716;text-align:center}
+.car-header_btn{margin-top:65px;width:112px;height:24px;background-color:#fff;color:#070716;font-size:11px;font-weight:400;text-transform:uppercase}
+.car-header_title{margin-top:40px;color:#fff;font-size:38px;font-weight:700;line-height:48px;text-transform:uppercase}
+.car-header_descr{margin-top:19px;color:#fff;font-size:17px;font-weight:400;line-height:21px}
+.car-header_img{display:block;position:absolute;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);bottom:150px}
+.car-subheader{height:397px;background:url(../images/mobile-main-img.png) center center/cover no-repeat;text-align:center}
+.car-subheader_descr{padding-top:213px;color:#222;font-size:17px;font-weight:300;line-height:24px}
+.require{text-align:center;padding:68px 0 84px 0}
+.require_block{margin:33px 0;text-align:left}
+.require_block_nmb{margin-bottom:0}
+.require_title{color:#1ca8c3;font-size:22px;font-weight:400}
+.require_list{list-style-type:none;padding-left:50px;margin-top:22px}
+.require_list li{position:relative;color:#222;font-size:17px;font-weight:300;line-height:24px;margin-bottom:10px}
+.require_list li:before{content:"";position:absolute;display:block;left:-32px;top:3px;width:21px;height:20px;background:url(../icons/require/blue.png) center center/cover no-repeat}
+.require_list li_descr{color:#1ca8c3;font-size:22px;font-weight:400}
+.warning .require_title{color:#ff5656}
+.warning .require_list li:before{background:url(../icons/require/red.png) center center/cover no-repeat}
+.world{height:715px;background:url(../images/world.png) center center/cover no-repeat;text-align:center}
+.world-button{margin-top:49px;width:76px;height:24px;background-color:#fff;color:#070716;font-size:11px;font-weight:400;text-transform:uppercase}
+.world-header{margin-top:32px;color:#fff;font-size:38px;font-weight:700;text-transform:uppercase}
+.world-subheader{margin-top:20px;color:#fff;font-size:17px;font-weight:200}
+.world-descr{margin-top:430px;display:block;color:#1fbad6;font-family:Roboto;font-size:15px;font-weight:400;text-transform:uppercase;outline:0}
+.world-descr:hover{color:#fff;text-decoration:none}
+.footer{display:-webkit-box;display:-ms-flexbox;display:flex}
+.footer_icons{display:-webkit-box;display:-ms-flexbox;display:flex;margin-top:50px;margin-left:23px}
+.footer_icons_items{position:relative;width:32px;height:32px;background-color:#070716;border-radius:100%;margin:0 9px 0 0}
+.footer_icons_items img{background-color:#fff;position:absolute;left:50%;top:7px;-webkit-transform:translateX(-50%);transform:translateX(-50%);border-radius:30%}
+.footer_icons_items img:hover{background-color:#ffffffa1}
+.footers{margin:0 auto;text-align:center}
+.footers .foot{margin-left:130px}
+.footers .foot_text{margin-left:33px}
+.footers .foot_line{display:block;width:299px;height:4px;background-color:#1fbad6;margin-bottom:23px}
+.foot_link1 a{color:#070716;font-size:15px;font-weight:300;text-transform:uppercase;padding:0 46px 0 0}
+.foot_link2 a{color:#999;font-size:11px;font-weight:300;text-transform:uppercase;padding:0 21px 0 0;margin-top:16px}
+.text_header_lang{color:#1fbad6;font-size:11px;font-weight:400;text-transform:uppercase;padding-top:19px;padding:19px 0 39px 0}
+.text_header_lang:hover{color:#000}
+.logo{display:-webkit-box;display:-ms-flexbox;display:flex;margin-right:23px;margin-top:50px}
+.footer_black{margin-top:39px;height:8px;background-color:#070716}
+.xs-visible{display:none}
+.car_xs_visible{display:none}
+.car-no_visible{display:none}
+@media (max-width:1200px){
+.menu_item{padding-right:15px}
+.menu_link{font-size:13px}
+.subheader_btn{height:40px;width:70%;margin-top:5px;font-size:13px}
+.promo-header{font-size:50px}
+.advant{margin-bottom:70px}
+.advant-items{vertical-align:flex-start}
+.advant-subheader{width:285px}
+.advant-descr{width:285px}
+.mobile-item{width:290px}
+.footers .foot_text_header .foot_link1 a{font-size:12px}
+.footers .foot_text .foot_link2 a{font-size:9px}
+}
+@media (max-width:991px){
+.menu_item{padding-right:8px}
+.menu_link{font-size:11px}
+.subheader_logo img{width:100%}
+.subheader_official{font-size:11px}
+.subheader_phone{width:18px}
+.subheader_btn{height:40px;width:100%;font-size:13px}
+.promo-header{font-size:40px}
+.promo-subheader{font-size:30px}
+.advant{margin-bottom:70px}
+.advant-items{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.advant-subheader{margin-top:25px}
+.mobile{margin-top:600px}
+.mobile-item_subtitle{font-size:16px}
+.car-header_img{width:650px;height:440px}
+.footers,.logo{display:none}
+.footer_icons{margin:0 auto;margin-top:50px}
+}
+@media (max-width:767px){
+.menu{position:fixed;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:0;left:-100%;width:47%;height:100vh;padding:20px 15px;background-color:rgba(0,0,0,.8);-webkit-transition:.6s all;transition:.6s all;z-index:100}
+.menu_active{left:0}
+.menu_item{padding-right:0;border:0;margin:10px 0;width:100%;text-align:center}
+.menu_link{font-size:20px;display:block;padding:4px 0}
+.hamburger{display:block;position:absolute;right:10px;top:28px;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:26px;height:12px}
+.hamburger span{display:block;height:2px;width:100%;background-color:#fff;margin-bottom:2px;-webkit-transition:.5s all;transition:.5s all}
+.hamburger_active span{margin-bottom:-2px}
+.hamburger_active span:nth-child(1){-webkit-transform:translateY(3px) rotate(-45deg);transform:translateY(3px) rotate(-45deg)}
+.hamburger_active span:nth-child(2){display:none}
+.hamburger_active span:nth-child(3){-webkit-transform:translateY(3px) rotate(45deg);transform:translateY(3px) rotate(45deg)}
+.xs-hidden{display:none}
+.xs-visible{display:inline}
+.subheader_official{margin-top:15px}
+.subheader_phone{color:#fff;font-size:16px;font-weight:400;text-transform:uppercase;margin-left:100px;text-align:center}
+.subheader_btn{width:130px;height:27px;font-size:11px;margin-left:90px}
+.promo-header{line-height:45px}
+.mobile{position:relative;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
+.mobile .title{font-size:30px}
+.car-header_img{width:580px;height:400px}
+}
+@media (max-width:320px){
+.menu_item{width:100%;text-align:center}
+.menu_link{display:block;padding:4px 0}
+.nav-bar{position:fixed;width:320px;height:40px;z-index:10000;top:0;left:0}
+.hamburger{padding-bottom:20px}
+.subheader{margin-top:30px}
+.subheader_official{display:none}
+.subheader_logo{display:block;margin-top:15px}
+.subheader_phone{display:block;font-size:10px;width:100px;margin:0 auto}
+.subheader_btn{width:100px;height:28px;margin:0 auto;font-size:9px;margin-left:15px}
+.promo{min-height:430px}
+.promo-header{font-size:30px}
+.promo-subheader{font-size:20px}
+.promo-descr{display:none}
+.advant .title{font-size:15px}
+.advant-items{display:block;padding-right:20px}
+.mobile .title{font-size:17px}
+.mobile .subtitle{display:none}
+.car{height:450px}
+.car-header_title{display:none}
+.car-header_descr{display:none}
+.car-subheader_descr{display:none}
+.car .car_xs_visible{display:block;position:relative;width:249px;height:60px;color:#fff;font-size:17px;font-weight:300;margin:0 auto}
+.car .car-no_visible{display:block;width:300px;height:190px;margin-top:70px}
+.xs-none{display:none}
+}

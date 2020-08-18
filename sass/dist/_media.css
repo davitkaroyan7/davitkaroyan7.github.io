@@ -1,0 +1,296 @@
+@media (max-width: 1200px) {
+  .menu_item {
+    padding-right: 15px;
+  }
+  .menu_link {
+    font-size: 13px;
+  }
+  .subheader_btn {
+    height: 40px;
+    width: 70%;
+    margin-top: 5px;
+    font-size: 13px;
+  }
+  .promo-header {
+    font-size: 50px;
+  }
+  .advant {
+    margin-bottom: 70px;
+  }
+  .advant-items {
+    vertical-align: flex-start;
+  }
+  .advant-subheader {
+    width: 285px;
+  }
+  .advant-descr {
+    width: 285px;
+  }
+  .mobile-item {
+    width: 290px;
+  }
+  .footers .foot_text_header .foot_link1 a {
+    font-size: 12px;
+  }
+  .footers .foot_text .foot_link2 a {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 991px) {
+  .menu_item {
+    padding-right: 8px;
+  }
+  .menu_link {
+    font-size: 11px;
+  }
+  .subheader_logo img {
+    width: 100%;
+  }
+  .subheader_official {
+    font-size: 11px;
+  }
+  .subheader_phone {
+    width: 18px;
+  }
+  .subheader_btn {
+    height: 40px;
+    width: 100%;
+    font-size: 13px;
+  }
+  .promo-header {
+    font-size: 40px;
+  }
+  .promo-subheader {
+    font-size: 30px;
+  }
+  .advant {
+    margin-bottom: 70px;
+  }
+  .advant-items {
+    flex-direction: column;
+    align-items: center;
+  }
+  .advant-subheader {
+    margin-top: 25px;
+  }
+  .mobile {
+    margin-top: 600px;
+  }
+  .mobile-item_subtitle {
+    font-size: 16px;
+  }
+  .car-header_img {
+    width: 650px;
+    height: 440px;
+  }
+  .logo, .footers {
+    display: none;
+  }
+  .footer_icons {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 47%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+    z-index: 100;
+  }
+  .menu_active {
+    left: 0;
+  }
+  .menu_item {
+    padding-right: 0;
+    border: 0;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .menu_link {
+    font-size: 20px;
+    display: block;
+    padding: 4px 0;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 28px;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  .xs-hidden {
+    display: none;
+  }
+  .xs-visible {
+    display: inline;
+  }
+  .subheader_official {
+    margin-top: 15px;
+  }
+  .subheader_phone {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 100px;
+    text-align: center;
+  }
+  .subheader_btn {
+    width: 130px;
+    height: 27px;
+    font-size: 11px;
+    margin-left: 90px;
+  }
+  .promo-header {
+    line-height: 45px;
+  }
+  .mobile {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .mobile .title {
+    font-size: 30px;
+  }
+  .car-header_img {
+    width: 580px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 320px) {
+  .menu_item {
+    width: 100%;
+    text-align: center;
+  }
+  .menu_link {
+    display: block;
+    padding: 4px 0;
+  }
+  .nav-bar {
+    position: fixed;
+    width: 320px;
+    height: 40px;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+  }
+  .hamburger {
+    padding-bottom: 20px;
+  }
+  .subheader {
+    margin-top: 30px;
+  }
+  .subheader_official {
+    display: none;
+  }
+  .subheader_logo {
+    display: block;
+    margin-top: 15px;
+  }
+  .subheader_phone {
+    display: block;
+    font-size: 10px;
+    width: 100px;
+    margin: 0 auto;
+  }
+  .subheader_btn {
+    width: 100px;
+    height: 28px;
+    margin: 0 auto;
+    font-size: 9px;
+    margin-left: 15px;
+  }
+  .promo {
+    min-height: 430px;
+  }
+  .promo-header {
+    font-size: 30px;
+  }
+  .promo-subheader {
+    font-size: 20px;
+  }
+  .promo-descr {
+    display: none;
+  }
+  .advant .title {
+    font-size: 15px;
+  }
+  .advant-items {
+    display: block;
+    padding-right: 20px;
+  }
+  .mobile .title {
+    font-size: 17px;
+  }
+  .mobile .subtitle {
+    display: none;
+  }
+  .car {
+    height: 450px;
+  }
+  .car-header_title {
+    display: none;
+  }
+  .car-header_descr {
+    display: none;
+  }
+  .car-subheader_descr {
+    display: none;
+  }
+  .car .car_xs_visible {
+    display: block;
+    position: relative;
+    width: 249px;
+    height: 60px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+  .car .car-no_visible {
+    display: block;
+    width: 300px;
+    height: 190px;
+    margin-top: 70px;
+  }
+  .xs-none {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=_media.css.map */
